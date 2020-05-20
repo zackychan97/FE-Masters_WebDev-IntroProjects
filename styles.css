@@ -21,6 +21,19 @@ p {
     display: flex;
     border: 2px solid lightslategray;
     align-items: center;
+    width: 100%;
+}
+
+.top-left{
+    width: 25%;
+}
+
+.top-mid{
+    width: 50%;
+}
+
+.top-right{
+    width: 25%;;
 }
 
 .top-article{
@@ -33,6 +46,12 @@ p {
     display: flex;
     border: 2px solid gainsboro;
     justify-content: center;
+    width: 100%;
+}
+
+.low-article{
+    padding: 0.9%;
+    border: 2px solid gainsboro;
 }
 
 .left-txt-article{
@@ -40,13 +59,16 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1%;
 }
 
 .categories {
-    width: 353%;
+    width: 75%;
     display: flex;
     flex-direction: column;
+}
+
+.low-left{
+    width: 25%;
 }
 
 /* Bottom Category Section Styling */
