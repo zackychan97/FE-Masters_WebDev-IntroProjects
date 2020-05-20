@@ -1,0 +1,9 @@
+/* Top Section Styling */
+.top-section{
+    display: flex;
+    border: 2px solid lightslategray;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Bottom Section Styling */
